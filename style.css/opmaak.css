@@ -1,0 +1,34 @@
+a {
+color: lightgreen;
+text-decoration: none;
+}
+
+a:hover {
+background-color: green;
+}
+*{
+  margin: 10px;
+  padding: 0px;
+}
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.topnav {
+  padding: 1px;
+  background-color: #333;
+}
+.maps{
+  float: right;
+}
+.jasper{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.leeuwenkop{
+  border-radius: 10%;
+  padding: 0px;
+}
