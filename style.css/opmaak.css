@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab&display=swap');
 a {
 color: lightgreen;
 text-decoration: none;
@@ -9,6 +11,7 @@ background-color: green;
 *{
   margin: 10px;
   padding: 0px;
+  font-family: 'Roboto Slab', serif;
 }
 .header {
   position: relative;
@@ -23,12 +26,28 @@ background-color: green;
 .maps{
   float: right;
 }
-.jasper{
+.header-text{
   position: absolute;
-  top: 8px;
-  left: 16px;
+  bottom: 16px;
+  left: 32px;
+  font-size: 100px;
+  color: lightgreen;
 }
-.leeuwenkop{
-  border-radius: 10%;
-  padding: 0px;
+.text{
+  font-size: 24px;
+  text-align: center;
+  background-color: lightgrey;
+  width:60%;
+  padding-top: 1%;
+  padding-bottom: 12%;
+}
+b{
+  color: green;
+}
+.metis{
+  float:right;
+}
+.text-Home{
+  font-size: 50px;
+  font-family: 'Merriweather', serif;
 }
